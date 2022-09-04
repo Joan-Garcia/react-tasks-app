@@ -34,10 +34,9 @@ export function TaskForm() {
                     onChange={(e) => setDescription(e.target.value)}>
                 </textarea>
                 <button
-                className="bg-indigo-500 text-white rounded-md hover:bg-indigo-400 py-1 mt-4 w-full"
-                    disabled={!title || !description}>
-                        Save
-                </button>
+                    className="bg-indigo-500 text-white rounded-md hover:bg-indigo-400 py-1 mt-4 w-full"
+                    disabled={!title || !description}
+                >Save</button>
             </form>
         </div>
     )

@@ -12,9 +12,8 @@ export function TaskCard({task}: {task: Task}) {
             <p className="text-gray-500 text-sm">{task.description}</p>
             <button 
                 className="bg-red-500 rounded-md px-2 py-1 mt-4 hover:bg-red-400"
-                onClick={() => deleteTask(task.id!)}>
-                    Delete
-            </button>
+                onClick={() => deleteTask(task.id!)}
+            >Delete</button>
         </div>
     );
 }
